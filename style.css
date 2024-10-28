@@ -1,0 +1,80 @@
+:root {
+    font-size: 62.5%;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+}
+
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #cf9aff, #95c0ff);
+}
+
+.notes {
+    padding: 5% 10%;
+}
+
+.notes-top {
+    display: flex;
+    align-items: center;
+}
+
+.notes-top h1 {
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+button {
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-block: 2rem 3rem;
+    padding: 1.3rem 3rem;
+    background: linear-gradient(#9418fd, #571094);
+    color: #fff;
+    border: 0;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+}
+
+.notes-bottom {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.input-box {
+    width: 38%;
+    height: 170px;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: .5rem;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.input-box p {
+    font-size: 1.75rem;
+    color: #85888e;
+    height: 100%;
+    outline: none;
+}
+
+.input-box i {
+    font-size: 1.9rem;
+    position: absolute;
+    right: 20px;
+    bottom: 26px;
+    cursor: pointer;
+}
+.input-box i:hover{
+    font-size: 2rem;
+}
